@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="code-editor-container">
+      <div class="code-editor html-editor">
+        <div class="head-editor">
+          <div class="left-head">
+            <img src="HTML.png" alt="html" width="30px" />
+            <span>Html</span>
+          </div>
+          <div class="right-head">
+            <img src="copy.png" alt="copy" width="20px" class="copy cpoy1" />
+          </div>
+        </div>
+        <textarea name="html-input" spellcheck="false"></textarea>
+      </div>
+      <div class="code-editor css-editor">
+        <div class="head-editor">
+          <div class="left-head">
+            <img src="Css.png" alt="Css" width="30px" />
+            <span>Css</span>
+          </div>
+          <div class="right-head">
+            <img src="copy.png" alt="copy" width="20px" class="copy cpoy2" />
+          </div>
+        </div>
+        <textarea name="css-input" spellcheck="false"></textarea>
+      </div>
+      <div class="code-editor js-editor">
+        <div class="head-editor">
+          <div class="left-head">
+            <img src="js.png" alt="js" width="30px" />
+            <span>Js</span>
+          </div>
+          <div class="right-head">
+            <img src="copy.png" alt="copy" width="20px" class="copy cpoy3" />
+          </div>
+        </div>
+        <textarea name="js-input" spellcheck="false"></textarea>
+      </div>
+    </div>
+    <div class="output-container">
+      <div class="output-head">
+        <span>OUTPUT</span>
+        <img src="save.png" alt="save" id="save" width="25px" />
+        <img src="upArrow.png" alt="fullScreen" id="fullScreen" width="25px" />
+      </div>
+      <iframe id="output"> </iframe>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
